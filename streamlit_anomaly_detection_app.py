@@ -12,10 +12,10 @@ from datetime import datetime
 anomaly_model = load_model('Suspicious_Human_Activity_Detection_LRCN_Model.h5')
 
 # Twilio configuration
-twilio_account_sid = 'AC4e7eb78b90d176256ebfd74b912314ff'
-twilio_auth_token = '7666260ba3947ddf32458015571359b0'
-twilio_sender_number = '+16095282776'
-twilio_recipient_number = '+917989665270'
+twilio_account_sid = 'your_account_sid_here'
+twilio_auth_token = 'your_auth_token_here'
+twilio_sender_number = 'your_twilio_number_here'
+twilio_recipient_number = 'recipient_number_here'
 
 twilio_client = Client(twilio_account_sid, twilio_auth_token)
 
